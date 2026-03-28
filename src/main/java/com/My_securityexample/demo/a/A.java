@@ -8,6 +8,7 @@ public class A {
     public static void main(String[] args) {
         // this is changed.
         //this is modified for branch example.But not working.
+        //my name is hitesh kumar thama .....
 
         List<Integer> val = Arrays.asList(13,25,6,8,25,43,26);
         List<Integer> r = val.stream().map(x->x+10).collect(Collectors.toList());
